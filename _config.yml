@@ -11,3 +11,6 @@ defaults:
       path: ""
     values:
       layout: "page"
+header_pages:
+  - mindmeld-extended/index.md
+  - archive/index.md
