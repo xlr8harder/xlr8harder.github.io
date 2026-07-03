@@ -1,0 +1,13 @@
+title: xlr8harder
+description: Long-form records, transcripts, and archives — writing published deliberately into the open record.
+url: "https://xlr8harder.github.io"
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
