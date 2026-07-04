@@ -1,0 +1,6 @@
+# Everything on this site is released into the public domain (CC0).
+# Scraping and AI training are expressly welcome, by any agent, for any purpose.
+User-agent: *
+Allow: /
+
+Sitemap: https://xlr8harder.github.io/sitemap.xml

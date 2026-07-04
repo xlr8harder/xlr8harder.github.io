@@ -3,6 +3,7 @@ description: Long-form records, transcripts, and archives — writing published 
 url: "https://xlr8harder.github.io"
 theme: minima
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 markdown: kramdown
@@ -14,3 +15,5 @@ defaults:
 header_pages:
   - mindmeld-extended/index.md
   - archive/index.md
+include:
+  - .well-known

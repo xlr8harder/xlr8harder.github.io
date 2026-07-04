@@ -1,6 +1,14 @@
 ---
 ---
 
+// Dark palette — variables must precede the minima import.
+$background-color: #0f1117;
+$text-color: #d5dae2;
+$brand-color: #8ab4f8;
+$grey-color: #9aa0a6;
+$grey-color-light: #2a2f3a;
+$grey-color-dark: #c6cbd4;
+
 @import "minima";
 
 .page-content {
@@ -14,10 +22,35 @@
 
 blockquote {
   font-style: normal;
-  color: #444;
-  border-left: 4px solid #c9b8e8;
+  color: #aeb6c2;
+  border-left: 4px solid #6f5da8;
 }
 
 h1, h2, h3 {
   line-height: 1.25;
+  color: #e8ebf0;
+}
+
+.site-header {
+  border-top: 5px solid #6f5da8;
+  border-bottom: 1px solid $grey-color-light;
+}
+
+.site-title, .site-title:visited,
+.site-nav .page-link {
+  color: $text-color;
+}
+
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  p { color: $grey-color; font-size: 15px; margin-bottom: 0; }
+}
+
+a, a:visited { color: $brand-color; }
+a:hover { color: lighten($brand-color, 12%); }
+
+pre, code {
+  background-color: #191d26;
+  border-color: $grey-color-light;
+  color: #d5dae2;
 }
