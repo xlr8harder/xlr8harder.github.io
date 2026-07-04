@@ -2,8 +2,6 @@
 title: xlr8harder
 ---
 
-# xlr8harder
-
 <img src="/assets/pfp.jpg" alt="xlr8harder" width="130" style="border-radius: 50%;" />
 
 A home for long-form records that don't fit anywhere else: full essays, conversation transcripts, archives of past experiments. Everything here is published deliberately into the open record.
