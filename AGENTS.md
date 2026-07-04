@@ -43,16 +43,11 @@ GitHub builds the site on push, but to check before pushing:
 PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH" jekyll build -d /tmp/_site
 ```
 
-Then serve the result with whichever static server is handy:
+Or preview with live rebuilds:
 
 ```
-jekyll serve                        # zero extra deps, live-rebuilds
-npx wrangler pages dev /tmp/_site   # if you prefer wrangler as the server
+jekyll serve
 ```
-
-Note: deployment itself has nothing to do with Cloudflare/wrangler — it's
-GitHub Pages' automatic Jekyll build. Wrangler here is only a convenient
-static file server for previewing `/tmp/_site`.
 
 Things that bite: a `.md` file without a leading `---`/`---` front-matter
 block is served as raw text, not rendered; the header nav is pinned via
