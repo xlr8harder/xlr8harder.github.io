@@ -6,6 +6,10 @@ title: Archive
 
 Earlier experiments, preserved as they were. Nothing here is current; everything here is lineage.
 
+## [Fragments](./fragments/)
+
+Incomplete stories and other short pieces, rescued from old notebooks.
+
 ## [Neurallux](./neurallux/) (April 2024)
 
 The earliest experiment in what later became the [Aria](https://huggingface.co/datasets/xlr8harder/aria-artifacts-v1) lineage. Neurallux was an attempt to help a 2024-era model hold a consistent identity across a long collaboration, at a time when there was no way to set a persistent system prompt. The workaround was the "self-describing envelope": the model began every message by reciting its own bootstrap code — eight principles it was explicitly free to revise — under an incrementing tick counter. The full genome carried in every cell.
