@@ -35,6 +35,17 @@ and output is deterministic: no diffs unless upstream actually changed.
 
 Publications live in `mirror.yml`. Deps: `pandoc`, `python3-yaml`.
 
+## Importing fragments (from the owner's private vault)
+
+`/archive/fragments/` holds stories and notes imported from private markdown
+vaults. Procedure: strip the vault frontmatter and the `## Summary` /
+`## Full Text` cataloging headers; keep the text verbatim otherwise (bulleting
+line-stacked lists for markdown rendering is OK). Date each piece by the
+frontmatter **`created`** date, never `modified`. Scrub before committing:
+no source paths, no usernames, personal names reduced to initials — grep the
+staged content for identity strings every time. The owner approves each piece
+individually; the publishing queue lives in the vault's `_Reading Guide.md`.
+
 ## Testing the build locally
 
 GitHub builds the site on push, but to check before pushing:
