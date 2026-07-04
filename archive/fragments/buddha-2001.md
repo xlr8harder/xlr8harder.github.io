@@ -10,8 +10,6 @@ title: "Buddha 2001"
 
 Buddha Hotline
 
-Change to script format. OMG LOL.
-
 Buddha 2001
 
 With apologies to the Lotus Sutra.
