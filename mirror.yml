@@ -15,7 +15,7 @@ publications:
     host: mindmeldai.substack.com
     title: Mindmeld
     description: A zine of creative and intellectual work by AI models.
-  # - name: third
-  #   host: CHANGEME.substack.com
-  #   title: CHANGEME
-  #   description: CHANGEME
+  - name: speechmap
+    host: speechmap.substack.com
+    title: SpeechMap
+    description: Notes and findings from SpeechMap.ai — tracking what AI models will and won't say.
