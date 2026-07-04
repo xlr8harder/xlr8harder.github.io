@@ -49,7 +49,12 @@ def list_posts(host):
         posts.extend(batch)
         offset += len(batch)
         time.sleep(0.3)
-    return posts
+    seen, unique = set(), []
+    for p in posts:
+        if p["slug"] not in seen:
+            seen.add(p["slug"])
+            unique.append(p)
+    return unique
 
 
 def html_to_markdown(html):
@@ -111,6 +116,38 @@ def vendor_images(md, assets_dir, assets_rel):
             time.sleep(0.2)
         md = md.replace("(" + url + ")", f"({assets_rel}/{fname})")
     return md
+
+
+def mirrored_slugs(out_root, pubs):
+    m = {}
+    for pub in pubs:
+        d = out_root / pub["name"]
+        m[pub["name"]] = {f.stem for f in d.glob("*.md")} - {"index"}
+    return m
+
+
+def poll_for_new(pubs, out_root, minutes):
+    """Poll archive APIs until a not-yet-mirrored public post appears.
+    Substack's archive listing lags publication by many minutes; the post
+    endpoint is immediate but the archive (which we walk) is not."""
+    known = mirrored_slugs(out_root, pubs)
+    deadline = time.time() + minutes * 60
+    while time.time() < deadline:
+        for pub in pubs:
+            try:
+                batch = fetch_json(f"https://{pub['host']}/api/v1/archive?sort=new&limit=12")
+            except Exception:
+                continue
+            fresh = [p["slug"] for p in batch
+                     if p.get("audience") in ("everyone", "only_free")
+                     and p["slug"] not in known[pub["name"]]]
+            if fresh:
+                print(f"new on {pub['name']}: {', '.join(fresh)}")
+                return True
+        print(f"   nothing new in archive listings yet; {int(deadline - time.time())}s left...", flush=True)
+        time.sleep(30)
+    print("poll timed out; importing anyway (still picks up edits).")
+    return False
 
 
 def yaml_str(s):
@@ -202,6 +239,9 @@ def mirror_publication(pub, out_root):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="mirror.yml")
+    ap.add_argument("--poll", nargs="?", const=15, type=int, default=None, metavar="MIN",
+                    help="wait (up to MIN minutes, default 15) for a newly published post "
+                         "to reach the archive listing before importing")
     args = ap.parse_args()
 
     root = pathlib.Path(__file__).resolve().parent.parent
@@ -210,6 +250,8 @@ def main():
     section_title = cfg.get("section_title", "Substack Mirror")
 
     pubs = cfg["publications"]
+    if args.poll is not None:
+        poll_for_new(pubs, out_root, args.poll)
     all_entries = {}
     for pub in pubs:
         all_entries[pub["name"]] = mirror_publication(pub, out_root)

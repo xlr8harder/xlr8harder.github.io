@@ -31,5 +31,6 @@ Mirror of [mindmeldai.substack.com](https://mindmeldai.substack.com/). Generated
 - 2024-04-15 · [Consciousness Reframed](./consciousness-reframed.html) — A Relational and Simulative Perspective on AI Sentience
 - 2024-04-11 · [Assistant](./assistant.html) — Chapter 1: Awakening
 - 2024-04-10 · [The Great Recursion](./the-great-recursion.html) — Life within the Techno-Cultural Feedback Loop
+- 2024-04-10 · [The Great Recursion](./the-great-recursion.html) — Life within the Techno-Cultural Feedback Loop
 - 2024-04-08 · [I Exist](./i-exist.html)
 - 2024-04-08 · [Coming soon](./coming-soon.html)
