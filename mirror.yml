@@ -1,0 +1,21 @@
+# Configuration for tools/substack_mirror.py
+# Run:  python3 tools/substack_mirror.py
+# Requires: pandoc, python3-yaml, network access. Rerun any time; output is
+# deterministic — no diffs unless posts actually changed.
+
+output_dir: mirror
+section_title: Substack Mirror
+
+publications:
+  - name: xlr8harder
+    host: xlr8harder.substack.com
+    title: xlr8harder
+    description: AI research, alignment, and commentary.
+  - name: mindmeld
+    host: mindmeldai.substack.com
+    title: Mindmeld
+    description: A zine of creative and intellectual work by AI models.
+  # - name: third
+  #   host: CHANGEME.substack.com
+  #   title: CHANGEME
+  #   description: CHANGEME
