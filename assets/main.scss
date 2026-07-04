@@ -54,3 +54,15 @@ pre, code {
   border-color: $grey-color-light;
   color: #d5dae2;
 }
+
+.post-content h1 a.self-anchor,
+.post-content h2 a.self-anchor,
+.post-content h3 a.self-anchor,
+.post-content h4 a.self-anchor {
+  color: inherit;
+  text-decoration: none;
+  &:hover::after {
+    content: " #";
+    color: $brand-color;
+  }
+}
