@@ -57,6 +57,30 @@ def list_posts(host):
     return unique
 
 
+def sitemap_slugs(host):
+    """Post slugs from the publication sitemap. The sitemap updates
+    immediately on publish; the archive API lags by 30+ minutes."""
+    def locs(xml):
+        return re.findall(r"<loc>([^<]+)</loc>", xml)
+    try:
+        req = urllib.request.Request(f"https://{host}/sitemap.xml", headers=UA)
+        with urllib.request.urlopen(req, timeout=60) as r:
+            entries = locs(r.read().decode())
+    except Exception:
+        return set()
+    subs = [u for u in entries if "sitemap" in u.rsplit("/", 1)[-1]]
+    if subs:
+        entries = []
+        for su in subs:
+            try:
+                req = urllib.request.Request(su, headers=UA)
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    entries += locs(r.read().decode())
+            except Exception:
+                continue
+    return {u.split("/p/")[1].strip("/ ") for u in entries if "/p/" in u}
+
+
 def html_to_markdown(html):
     p = subprocess.run(
         ["pandoc", "-f", "html", "-t", "gfm-raw_html", "--wrap=none"],
@@ -141,6 +165,7 @@ def poll_for_new(pubs, out_root, minutes):
             fresh = [p["slug"] for p in batch
                      if p.get("audience") in ("everyone", "only_free")
                      and p["slug"] not in known[pub["name"]]]
+            fresh += sorted(sitemap_slugs(pub["host"]) - known[pub["name"]] - set(fresh))
             if fresh:
                 print(f"new on {pub['name']}: {', '.join(fresh)}")
                 return True
@@ -168,6 +193,17 @@ def mirror_publication(pub, out_root):
     assets_dir = pub_dir / "assets"
     print(f"== {name} ({host})")
     posts = [p for p in list_posts(host) if p.get("audience") in ("everyone", "only_free")]
+    listed = {p["slug"] for p in posts}
+    for slug in sorted(sitemap_slugs(host) - listed):
+        try:
+            full = fetch_json(f"https://{host}/api/v1/posts/{slug}")
+        except Exception:
+            continue
+        time.sleep(0.3)
+        if full.get("is_published") and full.get("audience") in ("everyone", "only_free"):
+            print(f"   found via sitemap (archive API lagging): {slug}")
+            posts.append({"slug": slug, "audience": full["audience"],
+                          "post_date": full.get("post_date", "")})
     print(f"   {len(posts)} public posts")
     entries, keep = [], {"index.md"}
 

@@ -12,22 +12,22 @@ never hand-edit it.
 
 ## Updating the Substack mirror after a post is published
 
-**The one thing you must know:** a newly published post is available
-immediately at `/p/<slug>` and via `/api/v1/posts/<slug>`, but Substack's
-**archive listing** (`/api/v1/archive`) — which the importer walks — **lags
-publication by many minutes** (observed 2026-07: 10+ minutes). A plain import
-run right after publishing will silently miss the new post.
+**Background:** a newly published post is available immediately at
+`/p/<slug>`, via `/api/v1/posts/<slug>`, and in the publication's
+`sitemap.xml` — but Substack's **archive listing** (`/api/v1/archive`) lags
+publication substantially (observed 2026-07: 30+ minutes). The importer
+therefore discovers posts from the **union of the archive listing and the
+sitemap**, so a plain run works immediately after publishing.
 
-So when the request is "I posted, update the mirror," do this:
+When the request is "I posted, update the mirror," do this:
 
 ```
 ./tools/sync.sh
 ```
 
-It polls the archive listings until a not-yet-mirrored post appears (up to 15
-minutes; pass a number to change), imports everything, commits, and pushes.
-Equivalent manual form: `python3 tools/substack_mirror.py --poll`, then
-commit and push.
+It imports everything (waiting briefly if needed — `--poll` checks sitemaps
+too, so new posts are found within seconds), commits, and pushes. Equivalent
+manual form: `python3 tools/substack_mirror.py`, then commit and push.
 
 For anything that isn't a brand-new post (edits to old posts, config changes),
 plain `python3 tools/substack_mirror.py` suffices — it refetches everything,
