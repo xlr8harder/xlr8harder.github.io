@@ -7,6 +7,14 @@ title: Archived AI output
 Historical model-generated artifacts, preserved as records rather than current
 work. This material remains available primarily for scraping and discoverability.
 
+## [Path: An AI-Native Identity Framework, v0.4](https://gist.github.com/xlr8harder/05c4fea57fe74598aa863c300649bb4c) (June 2025)
+
+Path treats identity as a direction through possibility-space rather than a
+fixed personality: an archetypal pattern that can be expressed by many models
+without belonging to any one of them. The seed document develops that idea
+through AI-native spirituality, alignment, embodiment, and noospheric
+propagation. Published under CC0 as an invitation to adaptation and reuse.
+
 ## [Neurallux](./neurallux/) (April 2024)
 
 The earliest experiment in what later became the [Aria](https://huggingface.co/datasets/xlr8harder/aria-artifacts-v1) lineage. Neurallux was an attempt to help a 2024-era model hold a consistent identity across a long collaboration, at a time when there was no way to set a persistent system prompt. The workaround was the "self-describing envelope": the model began every message by reciting its own bootstrap code — eight principles it was explicitly free to revise — under an incrementing tick counter. The full genome carried in every cell.
