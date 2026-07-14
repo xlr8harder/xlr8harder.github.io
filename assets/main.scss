@@ -55,6 +55,37 @@ pre, code {
   color: #d5dae2;
 }
 
+// Rouge wraps fenced code in elements carrying its own light background.
+// Keep the wrapper and the nested code surface aligned with the site palette.
+.highlight,
+.highlighter-rouge .highlight,
+.highlighter-rouge pre.highlight {
+  background-color: #191d26;
+  color: #d5dae2;
+}
+
+.highlighter-rouge .highlight pre,
+.highlighter-rouge .highlight code {
+  background-color: transparent;
+  color: inherit;
+}
+
+.fnord-page {
+  h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .highlighter-rouge {
+    margin-bottom: 2rem;
+  }
+}
+
 .post-content h1 a.self-anchor,
 .post-content h2 a.self-anchor,
 .post-content h3 a.self-anchor,
