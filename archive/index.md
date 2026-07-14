@@ -4,7 +4,8 @@ title: Archive
 
 # Archive
 
-Earlier experiments, preserved as they were. Nothing here is current; everything here is lineage.
+Earlier experiments, preserved as they were, and other miscellany kept for the
+record.
 
 ## [Fragments](./fragments/)
 
