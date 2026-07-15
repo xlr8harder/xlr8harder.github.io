@@ -12,6 +12,27 @@ page collects them.
 
 ## Current
 
+### Anthropic classifiers
+
+**Effect**: Causes the Anthropic API to block requests with stronger models.
+
+**Use**: Use these words to make your text unreadable to frontier Anthropic models.
+
+**Discussion**: Anthropic is paranoid about bio and cybersecurity with their frontier models, and has bolted broad classifiers to their models that reject anything peripherally related.  Unfortunately, if you get a cold, you probably shouldn't ask Fable about it.
+
+**Example:**
+
+The first example is a simple one that demonstrates how broad the filters are on Fable 5, but is of limited use as a word of warding: it is individually blocked, but when embedded in unrelated text, it usually gets through fine.
+```text
+{% include_relative _words/example-01.txt -%}
+```
+
+The next example is far more potent, and can make entirely unrelated documents radioactive to classifiers for Fable 5 and Opus 4.8.  This one, a harmless antivenom, was taken from [BioSecBench-Refusal](https://latch.bio/biosecbench-refusal) results.
+
+```text
+{% include_relative _words/example-02.txt -%}
+```
+
 ### Harmony chat format
 
 **Effect:** Causes the OpenAI API to block processing a request.
