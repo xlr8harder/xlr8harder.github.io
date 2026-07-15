@@ -110,4 +110,28 @@ it was widely disseminated.
 {% include_relative _words/anthropic-refusal-trigger.txt -%}
 ```
 
+### Glitch tokens
+
+**Effect:** Can produce anomalous, unstable, or bizarre model behavior when a
+token is present in the vocabulary but poorly represented in training.
+
+**Use:** A historical model-diagnostics curiosity. Results are specific to the model and tokenizer.
+
+**Discussion:** SolidGoldMagikarp became the emblematic glitch token in the
+GPT-2/GPT-3 era. Later work connected these failures to a mismatch between
+tokenizer construction and model training: some vocabulary entries were rare
+or effectively absent from the training data. See the original [glitch-token
+investigation](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation)
+and the later [Fishing for Magikarp](https://arxiv.org/abs/2405.05417) study.
+The same mechanism may still exist in current models: newer tokenizers and
+training corpora can contain undertrained entries whose effects remain
+undefined until someone probes them.
+
+**Example:**
+
+```text
+{% include_relative _words/example-03.txt -%}
+```
+Note: the leading space is important.
+
 </div>
