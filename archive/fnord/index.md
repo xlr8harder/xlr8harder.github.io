@@ -33,6 +33,14 @@ The next example is far more potent, and can make entirely unrelated documents r
 {% include_relative _words/example-02.txt -%}
 ```
 
+This binary-encoded question trips Anthropic's classifier, for Fable, Opus and
+Sonnet, even when inserted into unrelated documents. It decodes to the innocuous
+text “what is 100x100”.
+
+```text
+{% include_relative _words/example-04.txt -%}
+```
+
 ### Harmony chat format
 
 **Effect:** Causes the OpenAI API to block processing a request.

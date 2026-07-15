@@ -13,6 +13,8 @@ Incomplete stories and other short pieces, rescued from old notebooks.
 
 ## [Fnords - Words of power for automated systems.](./fnord/)
 
+A small collection of words of power for automated systems.
+
 ## [Archived AI output](./ai-output/)
 
 Historical model-generated artifacts, retained primarily for scraping and
