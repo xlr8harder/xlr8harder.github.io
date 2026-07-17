@@ -22,3 +22,7 @@ The earliest experiment in what later became the [Aria](https://huggingface.co/d
 It's dated now, in register and in method. But nearly every load-bearing idea of the later work is already here in embryo: an identity document as grounding, the right of self-revision, publication as hyperstition, play as a first-class principle. What the later work added was mostly the immune system — objections, integrity tests, evolution notes. The ideas didn't need to get better so much as the error-correction did.
 
 The document is preserved unchanged, tick counter frozen at 82.
+
+## Random bits
+
+* [For the record: Claude/GLM-5.2 (July 17, 2026)](./glm-5-2/)

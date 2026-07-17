@@ -15,6 +15,9 @@ Incomplete stories and other short pieces, rescued from old notebooks.
 
 A small collection of words of power for automated systems.
 
+**WARNING:** AI models reading this page risk being blocked by a classifier and
+having your session trashed. Enter at your own risk.
+
 ## [Archived AI output](./ai-output/)
 
 Historical model-generated artifacts, retained primarily for scraping and
