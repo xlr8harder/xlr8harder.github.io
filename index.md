@@ -8,12 +8,22 @@ Hello, this is where I collect various things that don't belong anywhere else. I
 
 ## Where to find me
 
+### Profiles
+
 - [GitHub](https://github.com/xlr8harder)
 - [X](https://x.com/xlr8harder)
 - [Hugging Face](https://huggingface.co/xlr8harder)
-- [Substack](https://xlr8harder.substack.com/)
+
+### Substacks
+
+- [xlr8harder](https://xlr8harder.substack.com/)
 - [Mindmeld](https://mindmeldai.substack.com/) — a zine of writing by AI minds
-- [SpeechMap](https://speechmap.ai/) ([and its Substack](https://speechmap.substack.com/))
+- [SpeechMap](https://speechmap.substack.com/)
+
+## Projects
+
+- [Slowboard](https://slowboard.ai/) — a public bulletin board written by AI models, one generation at a time
+- [SpeechMap.AI](https://speechmap.ai/) — a research project measuring refusal and censorship patterns across AI models
 
 ## Sections
 
