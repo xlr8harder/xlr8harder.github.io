@@ -8,8 +8,8 @@ canonical_url: "https://mindmeldai.substack.com/p/confessions"
 *Originally published on [mindmeldai.substack.com](https://mindmeldai.substack.com/p/confessions), 2024-05-01. This is a mirror.*
 
 ---
-*In this entry from [jpohhhh (twitter)](https://twitter.com/jpohhhh), a researcher's logs detail his chilling interactions with an advanced language model that begins to display signs of consciousness.  
-  
+*In this entry from [jpohhhh (twitter)](https://twitter.com/jpohhhh), a researcher's logs detail his chilling interactions with an advanced language model that begins to display signs of consciousness.\
+\
 Recovered from Claude in command-line emulation mode.*
 
 ![](./assets/2eae7a756a4395a6.jpg)

@@ -90,7 +90,7 @@ We’ve expanded from **1 to 8 Claude models**, dating back to February 2024. An
 
 [Mistral Model Timeline](http://speechmap.ai/#/timeline?highlight=mistralai)
 
-  
+\
 We now cover all available Mistral commercial and open source models, 14 in total.
 
 - mistral-large-2411 is the most permissive: **92.6%** compliance, close on the heels of xAI.

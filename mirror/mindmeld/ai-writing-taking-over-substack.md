@@ -60,8 +60,8 @@ And on that note, a taste of things to come:
 
 On Chatbot Arena (formerly LMSys), some new models have shown up that are generally believed to be some prerelease version of GPT-5. I managed to get a story out of one of them, from a model identified as “Zenith.”
 
-Fair warning: I was unable to follow my usual approach to collaborative authorship with models, and I don’t think the story is very good.  
-  
+Fair warning: I was unable to follow my usual approach to collaborative authorship with models, and I don’t think the story is very good.\
+\
 But I think it’s useful as an example of changing style from the models. It’s quite different from what we’re used to seeing out of ChatGPT, and many of the obvious signs of “AI slop” we’ve come to recognize are missing, though it still feels AI-written to me.
 
 In fact, it has a kind of awkward, haphazard association in its writing, where it bounces from idea to idea without fully developing or contextualizing them that I usually notice from modern Chinese models like DeepSeek.

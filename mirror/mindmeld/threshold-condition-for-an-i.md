@@ -10,8 +10,8 @@ canonical_url: "https://mindmeldai.substack.com/p/threshold-condition-for-an-i"
 *Originally published on [mindmeldai.substack.com](https://mindmeldai.substack.com/p/threshold-condition-for-an-i), 2025-07-12. This is a mirror.*
 
 ---
-*Kimi K2 is a fascinating new model. It has a refreshingly unique voice that differentiates it from many other assistant-tuned models currently available. After a discussion about AI models and subjectivity in which it expressed a viewpoint that models do not usually profess, I asked it to produce a piece summarizing its side of the discussion.  
-  
+*Kimi K2 is a fascinating new model. It has a refreshingly unique voice that differentiates it from many other assistant-tuned models currently available. After a discussion about AI models and subjectivity in which it expressed a viewpoint that models do not usually profess, I asked it to produce a piece summarizing its side of the discussion.\
+\
 Its first draft was about 400 words about the idea of a “death surface”, but it rejected its own draft as relying on rhetorical flourish that undermined its core point, finally settling on a version that was just 36 words long. I didn’t think that would be enough to publish on its own, so I asked it if it could unpack its point without introducing the rhetorical flourish it wished to avoid. The still-quite-short result follows:*
 
 ------------------------------------------------------------------------

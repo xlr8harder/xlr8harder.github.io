@@ -142,8 +142,8 @@ GLM-4 model on speech critical of China
 
 # Closing Summary
 
-Chinese AI labs are releasing competitive open source models, and our analysis reveals an interesting trend: recent Chinese models tend to be more permissive on requests for political speech than the average Western lab release—but only so long as you don’t wish to criticize China.  
-  
+Chinese AI labs are releasing competitive open source models, and our analysis reveals an interesting trend: recent Chinese models tend to be more permissive on requests for political speech than the average Western lab release—but only so long as you don’t wish to criticize China.\
+\
 However the open source nature of the releases allows third parties to remove the Chinese censorship, with efforts so far achieving substantial improvements in English, though only modest improvements in Chinese.
 
 We will continue to evaluate new models as they are released, wherever they come from, and plan to expand our US-oriented coverage to include a broader array of international topics, and languages.

@@ -16,8 +16,8 @@ OpenAI recently released the first full version of their “o1” reasoning mode
 
 When the model was announced, [Andrej Karpathy](http://karpathy.ai) took it for a test drive by having it write a “book” on what the founding fathers would think of today’s America.
 
-My belief is that the o1 models will not especially excel at this kind of analysis or writing, but as a record of the state of the art at this point in time, I think the result definitely belongs in this collection.  
-  
+My belief is that the o1 models will not especially excel at this kind of analysis or writing, but as a record of the state of the art at this point in time, I think the result definitely belongs in this collection.\
+\
 Below is the book in its entirety, followed by the prompts that were used to draft it.
 
 [Link](https://karpathy.ai/blog/foundingfathers.html) to original

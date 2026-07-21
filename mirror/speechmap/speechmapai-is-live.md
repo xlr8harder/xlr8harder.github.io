@@ -16,14 +16,14 @@ We just launched [SpeechMap.AI](https://speechmap.ai/), an independent, non-part
 
 Unlike most AI evaluations, which measure what models *can do*, SpeechMap.AI focuses on what they *refuse to do*: what they avoid, deflect, or shut down.
 
-It’s a project about boundaries:  
+It’s a project about boundaries:\
 Where is dissent allowed? When does satire get blocked? Which topics are safe to discuss, and which aren’t?
 
 ------------------------------------------------------------------------
 
 ### Why this matters
 
-AI models are becoming key infrastructure for public expression.  
+AI models are becoming key infrastructure for public expression.\
 They’re embedded in writing tools, search engines, chat interfaces, and creative platforms.
 
 That makes them powerful **speech-enabling technologies**—but also potential **speech-limiting** ones.
@@ -148,5 +148,5 @@ We’re making everything—[code and data](https://github.com/xlr8harder/llm-co
 
 [Subscribe now](https://speechmap.substack.com/subscribe?)
 
-AI is shaping the boundaries of public discourse.  
+AI is shaping the boundaries of public discourse.\
 Let’s make those boundaries visible.

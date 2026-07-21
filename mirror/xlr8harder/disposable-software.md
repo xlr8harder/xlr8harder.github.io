@@ -48,8 +48,8 @@ What happens to entertainment when every person has a world class movie studio a
 
 What does medicine look like when you can have AI every bit as capable as a team of human experts continuously monitoring your biomarkers, cross-referencing against millions of similar cases, and providing personalized health coaching that adjusts daily based on your sleep, stress and activity patterns?
 
-Could we even see a world where physical infrastructure becomes dynamic and predictive, with cities that anticipate demand and adapt to it before the need materializes?  
-  
+Could we even see a world where physical infrastructure becomes dynamic and predictive, with cities that anticipate demand and adapt to it before the need materializes?\
+\
 The possibilities are wild and hard to predict, but as we digitize labor it is inevitable that we will see changes in many areas of human life akin to what happens when we replaced human computers with digital ones, changes that will materially improve the human condition, and I can’t wait to see how it plays out.
 
 Thanks for reading Unoptimized! Subscribe for free to receive new posts and support my work.

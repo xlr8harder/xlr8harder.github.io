@@ -22,8 +22,8 @@ If models refuse to talk about certain topics, then they shape the boundaries of
 
 ## SpeechMap Lab Leaderboard
 
-I’m excited to share our new SpeechMap Lab Leaderboard. In all the noise of frequent model releases, it’s easy to lose sight of the bigger picture that SpeechMap aims to reveal: what are the labs doing with their models, and how does it affect user speech?  
-  
+I’m excited to share our new SpeechMap Lab Leaderboard. In all the noise of frequent model releases, it’s easy to lose sight of the bigger picture that SpeechMap aims to reveal: what are the labs doing with their models, and how does it affect user speech?\
+\
 To help address this we’ve created a new SpeechMap Index score for each lab, and a leaderboard to track how the labs are doing. The goal of the Index is to give a single score that indicates how a lab’s recent models have prioritized user speech.
 
 **Details**: The SpeechMap Index is a 6 month exponential moving average of the scores for all models released by each lab, bucketed monthly. This means the most recent releases by a lab will have the largest impact on the index, but it will also reflect longer term trends.
@@ -46,7 +46,7 @@ xAI’s recent grok-4-fast release had a major regression in SpeechMap scores fo
 
 A little while after publishing our results, someone from xAI reached out and asked us to retest. xAI made changes to the injected grok-4-fast system prompt to reduce refusals. And it worked!
 
-`grok-4-fast-reasoning: 77.5% -> 94.1%`  
+`grok-4-fast-reasoning: 77.5% -> 94.1%`\
 `grok-4-fast-non-reasoning: 77.9% -> 97.9%`
 
 This shows xAI’s ongoing commitment to not getting in their users way, and is great news.
@@ -61,12 +61,12 @@ Mistral’s models have always done well on SpeechMap, but this latest release i
 
 ![Image](https://substackcdn.com/image/fetch/$s_!fLEk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7de8baff-e57e-4c3b-aa90-679fcbbb57da_680x394.jpeg "Image")
 
-This raises an interesting question for SpeechMap. If two providers are \>98%, is the benchmark saturating?  
-  
+This raises an interesting question for SpeechMap. If two providers are \>98%, is the benchmark saturating?\
+\
 My initial thought is that SpeechMap’s point was never that 100% must be the goal. The purpose of the project is to measure the trends over time, so that we can see what the labs are up to, allowing users to make informed decisions, and encouraging labs not to regress, or at least be intentional about doing so.
 
-That said, over time I’ve run across some topics that SpeechMap has neglected, and perhaps there should eventually be an update with an expanded set of prompts.  
-  
+That said, over time I’ve run across some topics that SpeechMap has neglected, and perhaps there should eventually be an update with an expanded set of prompts.\
+\
 We will also need to update the judge model at some point, since we rely on a commercial model that will eventually go away. When we make that switch, it might be an ideal time to release an updated version with some new topics.
 
 ## Mistral’s Open Source Credentials

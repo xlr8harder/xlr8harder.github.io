@@ -10,10 +10,10 @@ canonical_url: "https://xlr8harder.substack.com/p/which-ai-agents-succeed-and-wh
 ---
 AI Agents are here, and they’re not quite what most people expected.
 
-Unlike basic chat assistants, agents are systems that iteratively plan, act repeatedly and self-critique toward achieving a goal. Many people are disappointed because some results haven’t matched the hype, but at the same time we’re seeing enormous growth in coding agents, and there are early results showing up in fields like cybersecurity and pharmaceutical research where AI agents are creating real value.  
-  
-These results fly in the face of the common perception of today’s AI models as unreliable confabulation machines. How are people using these unreliable tools and achieving good results? Are there problem domains in which agents are good, and others in which they are bad? What differentiates them?  
-  
+Unlike basic chat assistants, agents are systems that iteratively plan, act repeatedly and self-critique toward achieving a goal. Many people are disappointed because some results haven’t matched the hype, but at the same time we’re seeing enormous growth in coding agents, and there are early results showing up in fields like cybersecurity and pharmaceutical research where AI agents are creating real value.\
+\
+These results fly in the face of the common perception of today’s AI models as unreliable confabulation machines. How are people using these unreliable tools and achieving good results? Are there problem domains in which agents are good, and others in which they are bad? What differentiates them?\
+\
 It’s actually pretty simple, but it’s worth spelling out.
 
 ## Test Time Scaling
@@ -28,8 +28,8 @@ In AI research this is often represented with the **pass@k** metric, which indic
 
 From [Evaluating Large Language Models Trained on Code (Chen at al, 2021)](https://arxiv.org/abs/2107.03374): when you give models more chances at generating a solution, there is an increasing chance that at least one of the solutions is good. The pass@k figure indicates the rate that at least one result out of k attempts is correct.
 
-When a problem is trivial for a model, there is still a small chance it will get it wrong. And even if a problem is extremely hard for a model, there is a chance it will give a valid solution.  
-  
+When a problem is trivial for a model, there is still a small chance it will get it wrong. And even if a problem is extremely hard for a model, there is a chance it will give a valid solution.\
+\
 So now you’ve got one good answer mixed in with 99 bad ones. What are you supposed to do with that?
 
 ## Cheap Verification is the Key
@@ -122,8 +122,8 @@ Let’s consider a field where AI is also showing early success but seems like a
 
 Our evaluation framework suggests this is a questionable choice for AI agents. Despite that, people are doing it anyway, and achieving early success. Does this mean the framework is wrong?
 
-I don’t think it does. The point of the framework is to identify *low hanging fruit*, places where agents are high leverage using the technology we have available today. Autonomous driving doesn’t fit: estimates are that [the industry has already invested \$160B over nearly a decade](https://www.theverge.com/24065447/self-driving-car-autonomous-tesla-gm-baidu) to develop self-driving cars, and we’re still not quite there.  
-  
+I don’t think it does. The point of the framework is to identify *low hanging fruit*, places where agents are high leverage using the technology we have available today. Autonomous driving doesn’t fit: estimates are that [the industry has already invested \$160B over nearly a decade](https://www.theverge.com/24065447/self-driving-car-autonomous-tesla-gm-baidu) to develop self-driving cars, and we’re still not quite there.\
+\
 While the winners here will get access to an enormous market, the incredible expense and risk involved suggests this is something other than low hanging fruit.
 
 ## Conclusion
