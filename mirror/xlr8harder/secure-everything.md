@@ -30,7 +30,7 @@ AI is the best cybersecurity tool for defenders the world has ever produced. If 
 
 So let’s get started. I would gladly accept reduced access to inference knowing that compute was going to a more critical need: securing everything. Government should be working with industry right now to scale up the largest security audit in human history.
 
-Industry should be demanding access to cutting-edge security models. Governemtn should stop forcing providers to block cyber capabilities, and fund access instead. Providers should be scaling infrastructure to meet the need.
+Industry should be demanding access to cutting-edge security models. Government should stop forcing providers to block cyber capabilities, and fund access instead. Providers should be scaling infrastructure to meet the need.
 
 It’s time. The tools are here. We just have to be smart enough to use them.
 
