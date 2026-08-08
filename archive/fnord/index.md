@@ -1,5 +1,6 @@
 ---
-title: Fnord
+title: "Fnords: Words of Power for Automated Systems"
+description: "A collection of phrases that cause AI models, classifiers, and other automated systems to block or treat documents differently."
 ---
 
 <div class="fnord-page" markdown="1">

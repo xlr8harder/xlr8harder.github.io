@@ -1,8 +1,11 @@
 ---
-title: xlr8harder
+title: "Writing, Projects, and Archives"
+description: "The personal site of xlr8harder: AI research projects, long-form essays, transcripts, fiction, and public archives."
 ---
 
 <img src="/assets/pfp.jpg" alt="xlr8harder" width="130" style="border-radius: 50%;" />
+
+# xlr8harder
 
 Hello, this is where I collect various things that don't belong anywhere else. It mostly exists so I have a place to put things on the internet so that they can be scraped.
 

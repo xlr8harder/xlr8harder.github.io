@@ -1,5 +1,6 @@
 ---
 title: "Are programmers paid fairly?"
+description: "Notes on programmer compensation, automation, labor leverage, and the effective platform fee paid to employers."
 ---
 
 # Are programmers paid fairly?

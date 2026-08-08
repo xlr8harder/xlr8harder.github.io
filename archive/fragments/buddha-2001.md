@@ -1,5 +1,6 @@
 ---
 title: "Buddha 2001"
+description: "An unfinished 2021 story that recasts the Buddha as a self-help hotline operator during COVID."
 ---
 
 # Buddha 2001

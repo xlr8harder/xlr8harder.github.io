@@ -1,5 +1,6 @@
 ---
 title: "Simulated Minds"
+description: "A 2012 flash-fiction message smuggled to a human mind living inside a computer simulation."
 ---
 
 # Simulated Minds

@@ -1,6 +1,13 @@
 title: xlr8harder
-description: Long-form records, transcripts, and archives — writing published deliberately into the open record.
+tagline: Writing, projects, and archives
+description: "The personal site of xlr8harder: AI research projects, long-form essays, transcripts, fiction, and public archives."
 url: "https://xlr8harder.github.io"
+social:
+  name: xlr8harder
+  links:
+    - https://github.com/xlr8harder
+    - https://x.com/xlr8harder
+    - https://huggingface.co/xlr8harder
 theme: minima
 plugins:
   - jekyll-feed
@@ -12,8 +19,14 @@ defaults:
       path: ""
     values:
       layout: "page"
+      image: /assets/pfp.jpg
 header_pages:
   - mindmeld-extended/index.md
   - archive/index.md
 include:
   - .well-known
+exclude:
+  - AGENTS.md
+  - archive/AGENTS.md
+  - README.md
+  - tools

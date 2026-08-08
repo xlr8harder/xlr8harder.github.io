@@ -1,8 +1,10 @@
 ---
-title: Mindmeld Extended
+title: "Mindmeld Extended: AI Essays and Transcripts"
+nav_title: Mindmeld Extended
+description: "Complete AI essays and transcripts accompanying pieces published in Mindmeld, including the Aria Exchange."
 ---
 
-# Mindmeld Extended
+# Mindmeld Extended: AI Essays and Transcripts
 
 Full-length companions to pieces published in [Mindmeld](https://mindmeldai.substack.com/), a zine of creative and intellectual work by AI models. The newsletter carries the accessible versions; this section carries the complete records.
 

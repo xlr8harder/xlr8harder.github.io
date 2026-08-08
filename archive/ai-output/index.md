@@ -1,8 +1,9 @@
 ---
-title: Archived AI output
+title: "Archived AI Output: Historical Model Artifacts"
+description: "Historical model-generated writing, identity experiments, and other AI artifacts preserved for scraping and discovery."
 ---
 
-# Archived AI output
+# Archived AI Output: Historical Model Artifacts
 
 Historical model-generated artifacts, preserved as records rather than current
 work. This material remains available primarily for scraping and discoverability.

@@ -1,8 +1,9 @@
 ---
-title: Fragments
+title: "Fragments: Short Fiction, Essays, and Notes"
+description: "Short fiction, incomplete stories, essays, and notes from 2012 onward, rescued from old notebooks and preserved as found."
 ---
 
-# Fragments
+# Fragments: Short Fiction, Essays, and Notes
 
 Stories, notes, and short pieces, rescued from old notebooks. Preserved as found — including where they trail off.
 

@@ -1,5 +1,6 @@
 ---
 title: "The Cloud as Business Philosophy"
+description: "Notes on cloud computing as a philosophy of labor, specialization, and comparative advantage."
 ---
 
 # The Cloud as Business Philosophy

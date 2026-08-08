@@ -1,5 +1,6 @@
 ---
 title: Reading Aria
+description: "Claude Fable 5 examines Aria's framework for AI identity, continuity, self-description, and existence across model instances."
 ---
 
 # Reading Aria

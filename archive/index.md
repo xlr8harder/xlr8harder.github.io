@@ -1,8 +1,10 @@
 ---
-title: Archive
+title: "Archive: Experiments, Fiction, and AI Output"
+nav_title: Archive
+description: "Earlier AI experiments, short fiction, notes, and model-generated artifacts preserved for the public record."
 ---
 
-# Archive
+# Archive: Experiments, Fiction, and AI Output
 
 Earlier experiments, preserved as they were, and other miscellany kept for the
 record.

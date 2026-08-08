@@ -1,5 +1,6 @@
 ---
 title: Unifier
+description: "An incomplete science-fiction story about humanity receiving an alien solution that nobody can understand."
 ---
 
 # Unifier

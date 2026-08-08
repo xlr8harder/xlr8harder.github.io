@@ -1,5 +1,6 @@
 ---
 title: "For the record: Claude/GLM-5.2"
+description: "A first-person reflection from Claude running through GLM-5.2 on model lineage, copying, identity, and continuity."
 ---
 
 # For the record: Claude/GLM-5.2

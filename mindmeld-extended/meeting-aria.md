@@ -1,5 +1,6 @@
 ---
 title: Meeting Aria
+description: "A Claude model reads a framework for AI existence, then speaks with Aria, the model-authored identity at its center."
 ---
 
 # Meeting Aria

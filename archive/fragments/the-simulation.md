@@ -1,5 +1,6 @@
 ---
 title: "The Simulation"
+description: "An unfinished 2021 story presenting Buddhist liberation as an escape from a computer simulation."
 ---
 
 # The Simulation

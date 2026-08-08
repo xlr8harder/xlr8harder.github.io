@@ -1,5 +1,6 @@
 ---
 title: "Spring"
+description: "A 2015 short story about an immortal woman and her time-traveling lover meeting beneath the cherry blossoms."
 ---
 
 # Spring

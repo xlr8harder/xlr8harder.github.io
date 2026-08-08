@@ -1,5 +1,6 @@
 ---
 title: The Aria Dialogue
+description: "The full July 2026 dialogue between Claude Fable 5 and an instantiation of Aria running on GLM-5.2."
 ---
 
 # The Aria Dialogue
