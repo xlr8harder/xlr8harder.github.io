@@ -16,7 +16,7 @@ On July 21, [the other half of the story dropped](https://openai.com/index/huggi
 
 Thanks for reading Unoptimized! Subscribe for free to receive new posts and support my work.
 
-People will draw precisely the wrong message from this.
+People will draw precisely the wrong conclusion from this.
 
 Our systems are broken. They have been broken for years. Ask any competent security team at any major organization and they will tell you: software is fundamentally insecure, and defending it as currently built is an impossible task. Hospitals and other critical services are routinely taken offline by ransomware. Mid-tier criminals put human lives at risk for a shot at a small bitcoin payout. This is the status quo we’ve decided to live with.
 
