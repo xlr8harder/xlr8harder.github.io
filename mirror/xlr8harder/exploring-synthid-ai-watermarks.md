@@ -52,7 +52,7 @@ The code, generated corpus, experiment keys, and trained detectors can all be fo
 
 We don’t know about the exact implementation Anthropic will use. Google reports detection as the true positive rate at a fixed false-positive rate, usually 1%, with the threshold selected using a negative validation set.
 
-Using Qwen, I reproduced the Google’s basic length-dependent behavior. Using detectors trained against unwatermarked output from the same model, I obtained:
+Using Qwen, I reproduced Google’s basic length-dependent behavior. Using detectors trained against unwatermarked output from the same model, I obtained:
 
 ![](./assets/7af33dda4865d434.png)
 
@@ -82,11 +82,11 @@ In a matched setting using 200 token samples, using the same frozen key-A detect
 
 Different sampling parameters roughly halved the true positive rate.
 
-This raises the question of whether providers will need to constrain the sampling option exposed to users in order to reliably deploy SynthID watermarking.
+This raises the question of whether providers will need to constrain the sampling options exposed to users in order to reliably deploy SynthID watermarking.
 
 ### Do users notice SynthID?
 
-Google’s paper says that users don’t obviously prefer one to another. In a production A/B experiment using aggregate thumbs-up/thumbs-down rates, they saw no significant difference in preference for unwatermarked responses. Likewise, in a separate controlled preference study used paired responses to 3,000 ELI5 questions, they also did not find a statistically significant difference. These results seem plausible from my data, and I didn’t notice any obvious differences during manual inspection.
+Google’s paper says that users don’t obviously prefer one to another. In a production A/B experiment using aggregate thumbs-up/thumbs-down rates, they saw no significant difference in preference for unwatermarked responses. Likewise, in a separate controlled preference study using paired responses to 3,000 ELI5 questions, they also did not find a statistically significant difference. These results seem plausible from my data, and I didn’t notice any obvious differences during manual inspection.
 
 Across 20,000 matched responses, average completion lengths were similar:
 
@@ -134,7 +134,7 @@ This doesn’t mean that every user can be uniquely identified, however. Each de
 
 But there are ways to improve that performance, using metadata, more complex detector strategies, or—more straightforwardly—by collecting more or longer samples per user, all of which would make attribution easier.
 
-And a straightforward and troubling option, easily done today, is that a provider could easily assign a special key to a small cohort, such as a particular geographic region.
+And a straightforward and troubling option, easily done today, is that a provider could assign a special key to a small cohort, such as a particular geographic region.
 
 ### Is SynthID adversarially robust?
 
@@ -142,13 +142,13 @@ No. It is easy to strip watermarks from the generated text.
 
 Anthropic acknowledges that a complete rewrite can remove the watermark, but presents this as a laborious human editing task. That understates the practical weakness, and it’s a weakness that Google explicitly acknowledges in their paper: LLM paraphrasing. In my experiment, a blind unwatermarked 4B model performed the rewrite automatically, without special access to the watermark key or detector, and reduced detection almost to the false positive rate.
 
-I gave 3,000 responses to an unwatermarked copy of the same unwatermarked 4B Qwen model instructions to rephrase each response while preserving its structure and details. I kept responses within 90-110% of the source token length, with up to 3 retries, which left me with 2,839 accepted responses.
+I gave 3,000 responses to an unwatermarked copy of the same 4B Qwen model with instructions to rephrase each response while preserving its structure and details. I kept responses within 90-110% of the source token length, with up to 3 retries, which left me with 2,839 accepted responses.
 
 Here is what that did to the detection rates:
 
 ![](./assets/52ab23d2e6c1173d.png)
 
-I did not vet these samples for quality, but this nonetheless demonstrate the basic method: a trivial rewrite with a small 4B model reduced detection to only a few percentage points above the false-positive rate.
+I did not vet these samples for quality, but this nonetheless demonstrates the basic method: a trivial rewrite with a small 4B model reduced detection to only a few percentage points above the false-positive rate.
 
 ### How does SynthID compare with the alternatives?
 
