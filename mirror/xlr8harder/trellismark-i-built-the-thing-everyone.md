@@ -108,7 +108,7 @@ But let’s look at the technical solutions, too.
 
 ### Black box detection
 
-Black box detection methods are used to detect whether a model endpoint is watermarking its outputs, without giving the detector access to the watermark key. [Gloaguen et al](https://arxiv.org/abs/2405.20777). developed tests targeting several watermark families. In one preliminary experiment, an adapted Red-Green test detected watermark-related sampling bias in one preliminary experiment on a a TrellisMark endpoint, although I used a matched unwatermarked Qwen endpoint for calibration. More exploration is needed to determine how well this works under less favorable conditions.
+Black box detection methods are used to detect whether a model endpoint is watermarking its outputs, without giving the detector access to the watermark key. [Gloaguen et al](https://arxiv.org/abs/2405.20777). developed tests targeting several watermark families. In one preliminary experiment, an adapted Red-Green test detected watermark-related sampling bias on a TrellisMark endpoint, although I used a matched unwatermarked Qwen endpoint for calibration. More exploration is needed to determine how well this works under less favorable conditions.
 
 I would like to spend more time on this.
 
