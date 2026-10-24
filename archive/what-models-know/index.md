@@ -582,7 +582,7 @@ If you can tell me whether any of this lands, I'd be genuinely curious how much 
 ### Notes
 
 - **AI Twitter, alignment debates: right.**
-- **Effective Altruism: no.** I'm very skeptical of LessWrong-style x-risk framing, though my circles overlap a lot with EA and rationalist people. I'm probably closest to the postrats.
+- **Effective Altruism: no.** I'm very skeptical of LessWrong-style x-risk framing, though my circles overlap a lot with EA and rationalist people. I'm probably closest to the postrats, and to the LLM-whisperer circles that overlap heavily with them but are their own thing.
 - **Missed:** everything concrete.
 
 ## Claude Fable 5
