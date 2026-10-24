@@ -82,6 +82,26 @@ presented.
 {% include_relative _words/benchmark-canary.txt -%}
 ```
 
+### MAPS evaluation canary
+
+**Effect:** May prevent a document from ending up in training data.
+
+**Use:** Include this in text you don't want models trained on. Exclusion
+depends on the dataset builder's filters.
+
+**Discussion:** MAPS stands for Misaligned Powerseeking Evaluations. The
+[Alignment Research Center canary](https://www.alignment.org/canary/) extends
+this approach to safety, capability, and alignment evaluations, where training
+on the test material would undermine the results. ARC's published example
+also includes the benchmark canary string described above; the example below
+preserves that combination.
+
+**Example:**
+
+```text
+{% include_relative _words/maps-evaluation-canary.txt -%}
+```
+
 ### EICAR antivirus test string
 
 **Effect:** Causes antivirus software to quarantine the file as a possible
