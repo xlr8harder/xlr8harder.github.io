@@ -32,5 +32,5 @@ Output is deterministic — no diffs unless posts changed upstream.
 ## Sections
 
 - `/mindmeld-extended/` — full-length companions to [Mindmeld](https://mindmeldai.substack.com/) pieces
-- `/archive/` — earlier experiments, preserved as they were
+- `/archive/` — "Miscellany": earlier experiments, preserved as they were (URL kept as `/archive/` so existing links work)
 - `/mirror/` — Substack mirrors (generated; do not edit by hand)

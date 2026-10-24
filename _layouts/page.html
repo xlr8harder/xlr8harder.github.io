@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post{% if page.class %} {{ page.class }}{% endif %}">
   <div class="post-content">
     {{ content }}
   </div>
