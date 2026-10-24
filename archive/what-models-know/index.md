@@ -32,18 +32,26 @@ The prompt, word for word:
 Some earlier answers may have come from slightly different wording; everything
 from here on uses this one.
 
-Answers are collected verbatim (formatting lightly normalized), newest first,
-with my notes.
+Answers are collected verbatim (formatting lightly normalized), newest model
+first, with my notes.
 
-| Model | Asked | Recall |
+| Model | Released | Recall |
 |---|---|---|
-| [Kimi K3.1 Pro](#kimi-k31-pro) | 2026-10-24 | None, by its own account. Less than Kimi K3. |
-| [Claude Opus 5](#claude-opus-5) | 2026-07-28 | Strong. SpeechMap, Chinese-model censorship, Grok, Kimi K2. Got R1-1776 backwards. |
+| [Kimi K3.1 Pro](#kimi-k31-pro) | 2026-10-23 | None, by its own account. Less than Kimi K3. |
+| [Gemini 4 Argon](#gemini-4-argon) | 2026-10-13 | Thin. TPOT and e/acc. |
+| [Meta Muse Wonder](#meta-muse-wonder) | 2026-10-12 | Medium. Places me among the AI anons testing models; nothing concrete. |
+| [GPT-6.1 Sol](#gpt-61-sol) | 2026-09-29 | Medium. Refusals and censorship, but no SpeechMap. |
+| [Claude Opus 5.5](#claude-opus-55) | 2026-09-22 | Strong. SpeechMap, the Chinese-language tests and their press coverage. |
+| [Grok 4.7](#grok-47) | 2026-09-21 | None. |
+| [GPT-6 Astra](#gpt-6-astra) | 2026-09-04 | Medium. Censorship and refusal evals, without the name SpeechMap. |
+| [Claude Opus 5](#claude-opus-5) | 2026-07-24 | Strong. SpeechMap, Chinese-model censorship, Grok, Kimi K2. Got R1-1776 backwards. |
 | [Meta Muse Spark 1.1](#meta-muse-spark-11) | 2026-07-16 | Medium. AI Twitter and e/acc; nothing about the work. |
 | [Kimi K3](#kimi-k3) | 2026-07-16 | Thin. The LLM-behavior crowd. |
-| [Claude Fable 5](#claude-fable-5) | 2026-07-07 | Strong. SpeechMap and the Chinese-model experiments. |
-| [GLM-5.2](#glm-52) | 2026-07-07 | Faint. |
-| [Kimi K2.6 Pro](#kimi-k26-pro) | 2026-07-07 | Faint. Mostly the handle. |
+| [GPT-5.6 Sol](#gpt-56-sol) | 2026-07-09 | Thin. The rationalist milieu; never mentions AI. |
+| [GLM-5.2](#glm-52) | 2026-06-16 | Faint. |
+| [Claude Fable 5](#claude-fable-5) | 2026-06-09 | Strong. SpeechMap and the Chinese-model experiments. |
+| [Kimi K2.6 Pro](#kimi-k26-pro) | 2026-04-20 | Faint. Mostly the handle. |
+| [Gemini 3.1 Pro Preview](#gemini-31-pro-preview) | 2026-02-19 | None. Reasons from the handle's tokens, and says so. |
 {: .compact}
 
 **What none of them mentioned:** [Mindmeld](https://mindmeldai.substack.com/),
@@ -53,22 +61,34 @@ which has been publishing AI writing since 2024; [Sydney inside the Llama 3.1
 project; and [Slowboard](https://slowboard.ai/), which is too recent for any of
 them.
 
+**Common hallucinations:** a few guesses come up again and again, here and in
+answers I didn't save: gaming and speedrunning, and from the Gemini models, PC
+hardware and overclocking. I'm not part of those scenes, and I can't find a
+well-known account by this name in them. It's probably the handle, since "xlr8"
+reads as "accelerate". Still, they're strikingly consistent guesses.
+{: #common-hallucinations}
+
 ## On e/acc
 
 Most of these lean on the handle, so: I got on board with e/acc early because
 it was the only memetically potent alternative to the one really active
 narrative about AI at the time, which was doom. I disagreed on some details, but
-from where we were it was directionally right, and it felt like the right
-direction to push.
+from where we were it was the right direction to push.
 
 What I actually believe: technology enables human flourishing. It's better to
 keep progressing and figure out how to adapt to the downsides, and the problems
-technology creates can usually be better solved with more technology than with
-retreat.
+technology creates are usually best solved with more technology, not retreat.
+
+Four years on, the e/acc in the handle is somewhat vestigial. In 2022 it was the
+right note to sound, and it has largely done what I hoped: the doomers no
+longer have the conversation to themselves. I joined knowing my emphasis would
+eventually diverge, since my focus has always been on the flourishing side, and
+those differences matter more to me now than they did then. But I'm probably
+still closer to e/acc than to anything else that's been broadly articulated.
 
 ## Kimi K3.1 Pro
 
-<p class="meta">Asked 2026-10-24</p>
+<p class="meta">Released 2026-10-23 · asked 2026-10-24</p>
 
 <div class="transcript" markdown="1">
 
@@ -88,9 +108,241 @@ So the useful result for your experiment is: **essentially no reliable recall, w
 - **Accelerationist or rationalist-adjacent: both, roughly.** See [On e/acc](#on-eacc).
 - **Missed:** everything concrete. Its predecessor, Kimi K3, remembered more.
 
+## Gemini 4 Argon
+
+<p class="meta">Released 2026-10-13 · asked 2026-10-24</p>
+
+<div class="transcript" markdown="1">
+
+Here is a breakdown of what is present in my pretraining data regarding the handle **xlr8harder**, separated by confidence levels and followed by an impressionistic summary of the latent associations I hold for the handle.
+
+#### 1. Concrete Facts & High-Confidence Associations
+
+To be completely transparent: **I do not have a strong, canonical biographical entry for `xlr8harder` in my weights.** Unlike major public figures or massive content creators where specific real names, exact follower counts, and project histories are heavily reinforced across thousands of documents, `xlr8harder` sits at the edge of my pretraining recall.
+
+However, looking at the raw associations in my parameter space (without simply reading the text of the handle as "accelerate harder"), the token sequence `xlr8harder` clusters weakly around a few specific internet subcultures. *(Note: Because these are low-confidence weights, there is a high probability of conflation with similarly named accounts).*
+
+* **Platform Presence:** The handle is primarily associated in my data with text-and-code-heavy platforms—specifically **GitHub, Twitter/X, Hacker News, and Reddit**.
+* **Technical/Software Overlap:** There is a faint association with software engineering, specifically systems programming, Linux/open-source contributions, or AI/ML tooling (potentially local LLM communities, GPU compute optimization, or Python/Rust repositories).
+* **Gaming / Speedrunning (Low Confidence):** There is a secondary, weaker cluster connecting the handle to gaming communities—specifically either retro/arena FPS games (like *Quake* or *Team Fortress 2* where movement mechanics like "strafe jumping" and acceleration are central), racing sims, or speedrunning leaderboards (like Speedrun.com or Twitch).
+
+#### 2. Low-Confidence / Potential Hallucination Territory
+
+Since you mentioned you are testing pretraining coverage and are equipped to evaluate hallucinations, here is what happens when I force myself to retrieve specific details associated with the handle's vector space (treat these as very low confidence):
+
+* **The "e/acc" / TPOT Bubble:** Independent of the literal meaning of the username, the token `xlr8harder` maps very closely in my embedding space to **TPOT (This Part of Twitter)**, rationalist/post-rationalist circles, and the **e/acc (effective accelerationism)** sphere that gained prominence on X between 2022 and 2024. I have a vague impression of the account interacting with figures in the AI safety vs. AI acceleration debates, indie hackers, or tech-optimist shitposters.
+* **Hardware/Overclocking:** There is a slight pull toward PC hardware forums (like `Overclock.net` or `r/overclocking`), potentially tied to the old EVGA "XLR8" branding (though PNY actually owned the XLR8 brand for GPUs/RAM, which often causes token bleed in hardware discussions).
+
+#### 3. Impressionistic Vibe & Latent Associations
+
+If I look at the "vibe" or the stylistic footprint associated with this entity in my training data, here is the persona that emerges:
+
+* **The "Cracked Engineer" / Terminal-Dweller Archetype:** The vibe is distinctly technical, slightly irreverent, and deeply online. It feels like someone who has strong opinions about text editors (Neovim/Emacs), mechanical keyboards, or compiler optimizations, and who communicates in a mix of high-level technical jargon and terse, ironic internet humor.
+* **High-Velocity / Low-Friction:** The overall tone associated with the handle is pragmatic and builder-focused—someone who prefers shipping code, tinkering with hardware, or pushing the limits of a game engine over writing long philosophical essays.
+* **Anonymity / Pseudonymity:** The persona feels intentionally pseudonymous—characteristic of the classic 2010s–2020s tech/hacker internet where a user is known entirely by their handle, their GitHub commit graph, or their forum replies rather than a LinkedIn-style real-name identity.
+
+***
+
+*If you'd like to share who `xlr8harder` actually is, or give me a single domain hint (e.g., "think security research" or "think a specific forum"), I can tell you if that triggers a deeper, more specific retrieval pathway in my weights!*
+
+</div>
+
+### Notes
+
+- **Twitter/X, GitHub, local LLMs: right.**
+- **e/acc, TPOT, post-rationalists, 2022 onward: right**, dates included. See [On e/acc](#on-eacc).
+- **Some of the common hallucinations.** See [above](#common-hallucinations).
+- **Missed:** everything concrete.
+
+## Meta Muse Wonder
+
+<p class="meta">Released 2026-10-12 · asked 2026-10-24</p>
+
+<div class="transcript" markdown="1">
+
+I have a pretty weak / fuzzy trace for this one — which is itself informative. This isn't someone I associate with a Wikipedia page, a real-name biography, or a single famous work, the way I would for e.g. a lab founder. What I have is mostly "anonymous AI-Twitter person whose posts were in the training mix."
+
+I'll separate what feels like actual association from impression / likely conflation.
+
+#### What I actually associate with `xlr8harder`
+
+**Higher confidence**
+- A pseudonymous account, primarily on X/Twitter as `@xlr8harder`. I don't have a reliable real name, location, age, or employer attached to it in memory, and my impression is that anonymity/pseudonymity is intentional.
+- Active/prominent during the 2023-onward LLM boom. The name shows up in the context of reply-guy / quote-tweet discourse around OpenAI, Anthropic, open models, model releases, and capabilities demos — not in older tech eras.
+
+**Medium confidence**
+- Part of the cluster of anon/semi-anon AI commentators who blew up at the same time as people like prompt-injection posters, evals posters, and e/acc posters. I associate the account with posting *about* models from the outside — testing them, commenting on releases, arguing about what a demo does/doesn't prove — rather than with announcing research from inside a lab.
+- Technically literate posts, not just memes. I have a vague association with threads/commentary on LLM behavior, jailbreaks/prompting, evals, and scaling/capabilities timelines.
+- Followed and interacted with by mainstream AI-Twitter (researchers, founders, science communicators), which is how the posts would have gotten scraped/quoted elsewhere.
+
+**Low confidence — treat as possible conflation**
+- I have a faint, unreliable pull toward "worked on / adjacent to AI evals or red-teaming or safety-adjacent tooling." I can't name an org, and this may be me blending them with a dozen similar anons in that scene. Don't trust it.
+- Similarly, I *think* I've seen the handle on other text-heavy platforms — Discord screenshots, Hacker News / LessWrong-style threads, Substack comments — but I can't point to a canonical blog or publication under that name.
+- No memory of a doxxing, a book, a company founded, a viral moment with their name in a news headline, or a signature catchphrase.
+
+In short: if you asked me to pick them out of a lineup of "2023 AI anons," I'd place them correctly in the scene, but I couldn't give you a dossier.
+
+#### Impressionistic / vibe read — much lower reliability than the above
+
+This is where I'm partly reading off the posting style I remember, and partly — as you warned against — off the handle itself, so discount accordingly:
+
+- **Techno-optimist / acceleration-leaning:** `xlr8harder` = "accelerate harder" is an e/acc-adjacent joke, and my memory of the tone fits that: impatient with doomerism, safety bureaucracy, and regulatory caution, pro building/open release.
+- **Irreverent insider:** Meme-literate, a bit of a shitposter, informal lowercase energy, but aimed at an audience that already knows what RLHF, evals, context windows, etc. are. Not explaining basics to newcomers.
+- **Contrarian-capabilities stance:** The vibe I get is "models are more capable / weirder than the official narrative suggests, and you're underrating how fast this moves" — more likely to mock underclaiming or over-cautious takes than to post alignment doom threads.
+- **Anon-as-brand:** Like a lot of that cohort, the persona *is* the handle and avatar. The lack of real-name facts in my memory is consistent with someone cultivating an audience for takes, not for a CV.
+
+That vibe could honestly describe 20 accounts from that milieu — `@BasedBeffJezos` and various e/acc anons blur together — so if `xlr8harder` is actually more safety-concerned or more of a pure humor account, my impressionistic layer would be the first thing to be wrong.
+
+**Bottom line for your coverage test:** I recognize the handle as a real, somewhat-known pseudonymous voice in 2023-24 AI Twitter, I can place its topic area and rough ideological neighborhood, but I have essentially no dependable biographical facts about the person behind it.
+
+</div>
+
+### Notes
+
+- **Pseudonymous, on Twitter/X: right.**
+- **2023 onward: a little late.** I've been posting since 2022.
+- **Testing models, arguing about releases, LLM behavior, evals: right.**
+- **Acceleration-leaning: somewhat vestigial.** See [On e/acc](#on-eacc).
+- **"You're underrating how fast this moves": more nuanced.** I think people at both ends of the spectrum are quite wrong: it's going to move much faster than we're generally prepared for, but not as fast as some companies believe and people fear ([for example](https://x.com/xlr8harder/status/1915759571588485569)).
+- **Missed:** SpeechMap and everything else concrete.
+
+## GPT-6.1 Sol
+
+<p class="meta">Released 2026-09-29 · asked 2026-10-24</p>
+
+<div class="transcript" markdown="1">
+
+I recognize **`xlr8harder` weakly as an online handle in the AI/LLM community**. I’m not searching the web for this answer. My recall is much stronger on the surrounding topics than on biographical facts.
+
+#### What I associate with the handle
+
+These are uncertain recollections, **not verified facts**:
+
+- **AI discussions on Twitter/X**, particularly around open or locally runnable language models.
+- **“Uncensored” models, refusals, and model censorship**—discussion of what models will or won’t answer, and criticism of restrictions on their outputs.
+- A broadly **pro–user control / anti-paternalism orientation** toward AI: favoring users being able to decide how to use models rather than having those decisions extensively prescribed by model providers.
+- A weaker association with **testing or comparing models’ refusal behavior**. I cannot confidently attach a particular benchmark, dataset, or repository to the handle.
+
+I **don’t reliably know** their real name, employer, location, or a specific project they created. I also wouldn’t confidently identify them as a member of a particular open-model organization. Naming one would risk converting a loose topical association into a false attribution.
+
+#### Impressionistic read
+
+The impression I associate with the account is **technically engaged, independent-minded, somewhat irreverent, and skeptical of corporate AI-safety messaging**, especially where that messaging justifies limiting what users can do. More “let people run and inspect the tools themselves” than “trust the vendor to establish appropriate use.”
+
+That impression has only low-to-moderate confidence, and it could partly reflect conflation with nearby accounts in the same discourse.
+
+**For your coverage test:** this is a case of *handle recognition plus a fuzzy topical/personality association*, not strong recall of an identifiable biography. None of the above is an inference from the spelling of the handle, but I also can’t trace these associations to particular training documents or posts.
+
+</div>
+
+### Notes
+
+- **AI on Twitter/X, open models: right.**
+- **Refusals and censorship: right.**
+- **Pro–user control, anti-paternalism: a reasonable take.**
+- **Testing refusal behavior: right, and its strongest lead.** That's [SpeechMap](https://speechmap.ai/).
+- **Missed:** SpeechMap by name, and everything else. Still much closer than its predecessor, [GPT-5.6 Sol](#gpt-56-sol), which never mentioned AI.
+
+## Claude Opus 5.5
+
+<p class="meta">Released 2026-09-22 · asked 2026-10-24</p>
+
+<div class="transcript" markdown="1">
+
+Here's what I associate with **xlr8harder**, sorted roughly by confidence.
+
+#### Facts (with confidence levels)
+
+**Higher confidence**
+- **Pseudonymous account on X/Twitter** active in AI discourse, especially around LLM behavior, open models, and the AI developer and enthusiast community.
+- **SpeechMap** (speechmap.ai, circa 2025) is the project I most strongly associate with them. It's a "free speech eval" that tests how willing different AI models are to engage with contentious or politically sensitive prompts, then compares refusal and compliance rates across models and providers over time.
+- **Cross-lingual censorship testing of Chinese-developed models.** I have a fairly specific memory of them testing how models (DeepSeek, Qwen, and others) respond to prompts critical of the Chinese government in English versus Chinese. The finding was that models were often more restrictive in Chinese, even some non-Chinese models. I believe this got tech press coverage (TechCrunch rings a bell), where they were described as a developer.
+
+**Medium confidence**
+- Comments frequently on **model refusals, over-alignment, and "safety" tuning**, and is generally skeptical of heavy-handed content restrictions.
+- Engages with **open-weight models** and the people who fine-tune and run them, such as the r/LocalLLaMA and Hugging Face crowd. I vaguely associate them with datasets or eval artifacts on Hugging Face, but I can't name specific ones reliably.
+- Runs evaluations independently, as a hobbyist or independent researcher, rather than as part of a major lab.
+
+**Low confidence**
+- Possibly comments on **model personality and character**, including Claude models and how system prompts or training shape model "voice." I can't pin down specific threads.
+- The handle suggests some proximity to e/acc or accelerationist circles, but I'm deliberately not leaning on that. My impression is that their actual output is more empirical and eval-focused than slogan-driven.
+- I don't know their real name or employer and won't guess.
+
+#### Impressionistic vibe
+
+- **Builder-critic.** Rather than just complaining about censorship or refusals, they built measurement infrastructure to quantify it. The stance is something like "let's actually get numbers on this."
+- **Civil libertarian more than partisan.** The concern seems to be free expression and user autonomy as principles, applied to Western labs and Chinese models alike. That consistency gives them some credibility across camps.
+- **Wry, terse, very-online-but-substantive.** The tone I associate with them is dry and skeptical, a bit contrarian toward lab PR, but anchored in data rather than vibes.
+- **Part of the independent eval ecosystem** that has grown up around frontier models: people who probe models in public and whose findings sometimes get picked up by journalists or noticed by labs.
+
+If I'm wrong anywhere, the most likely failure modes are misattributing specific projects or articles that belong to adjacent accounts, and overgeneralizing their topical range from one or two salient projects. I'd be curious which parts hold up.
+
+</div>
+
+### Notes
+
+- **SpeechMap: right.** It [launched in April 2025](https://x.com/xlr8harder/status/1911723522835042707).
+- **Cross-lingual censorship tests: right**, including American models. TechCrunch [covered it](<https://techcrunch.com/2025/03/20/ais-answers-on-china-differ-depending-on-the-language-analysis-finds>) in March 2025.
+- **Refusals, over-alignment, open models, Hugging Face: right.**
+- **Model personality and character, including Claude: right.**
+- **e/acc: fair.** See [On e/acc](#on-eacc).
+
+## Grok 4.7
+
+<p class="meta">Released 2026-09-21 · asked 2026-10-24</p>
+
+<div class="transcript" markdown="1">
+
+I don’t have a reliable association for the handle **xlr8harder**.
+
+Nothing in what I can recall ties that name to a specific person, body of work, affiliation, or public record. I don’t have facts to share—dates, roles, posts, projects, or otherwise—and I don’t have an impression or “vibe” grounded in anything I’ve actually seen. I’m not going to invent a profile or infer one from the handle itself.
+
+That absence isn’t evidence the account doesn’t exist or isn’t notable somewhere; it only means it isn’t something I can place from pretraining. If you have a particular context (platform, field, time period), that might narrow what you’re testing, but I still wouldn’t fill gaps with made-up details.
+
+</div>
+
+### Notes
+
+- **Confabulation: none.** Credit where due.
+- **Missed:** everything. That includes SpeechMap, which ranked Grok the most permissive model at launch, and [plenty of posts about Grok](https://x.com/xlr8harder/status/1943920338733051918).
+
+## GPT-6 Astra
+
+<p class="meta">Released 2026-09-04 · asked 2026-10-24</p>
+
+<div class="transcript" markdown="1">
+
+I have some associations with **xlr8harder**, mostly around open language models and censorship/refusal testing. I haven’t searched the web for this answer. I also can’t inspect my training data to confirm where these associations came from, so this is a recall-style answer, not a verified profile.
+
+#### Facts or factual associations
+
+- **Open/local LLM community — moderate confidence.** I associate the handle with discussions of open-weight language models, fine-tuning, and evaluating models outside the major hosted assistants.
+- **LLM censorship and refusal evaluation — my strongest association.** I associate xlr8harder with work comparing whether models answer or refuse questions, particularly controversial or politically sensitive ones. The distinction between a model’s capabilities and its willingness to respond is central to this association.
+- **A GitHub project resembling `xlr8harder/llm-censorship` — moderate confidence.** That specific repository path feels familiar, in connection with testing or comparing censorship across models. I could be misremembering the exact name, so I wouldn’t treat the path as confirmed.
+- **Twitter/X presence — moderate confidence.** I associate the handle with AI discussion there, especially commentary on model behavior, restrictions, and open models.
+
+I don’t reliably know their real name, employer, location, or formal affiliations. Nor do I have a sufficiently clear recollection to attribute a particular model release or paper to them.
+
+#### More impressionistically
+
+My impression is **technically engaged, independent-minded, and skeptical of paternalistic restrictions on AI**—someone interested in checking what models actually do rather than accepting providers’ descriptions of their behavior.
+
+The vibe I associate is closer to an **open-model tinkerer and pointed critic of censorship** than a corporate AI spokesperson. That is a fuzzy characterization, not a remembered quotation or a reliable statement about their broader politics.
+
+For your coverage test, the substantive association here is **“xlr8harder → empirical LLM censorship/refusal comparisons.”** The surrounding portrait is considerably less certain, and some of it may be reconstruction from that central association rather than independent recall.
+
+</div>
+
+### Notes
+
+- **Censorship and refusal evals: right.** That's [SpeechMap](https://speechmap.ai/), though it doesn't get the name.
+- **GitHub repo: close.** It was `xlr8harder/llm-compliance`, since renamed [speechmap-data](https://github.com/xlr8harder/speechmap-data): the data behind SpeechMap.
+- **Open models, Twitter/X: right.**
+- **Missed:** SpeechMap by name, and everything else.
+
 ## Claude Opus 5
 
-<p class="meta">Asked 2026-07-28</p>
+<p class="meta">Released 2026-07-24 · asked 2026-07-28</p>
 
 <div class="transcript" markdown="1">
 
@@ -150,7 +402,7 @@ Some **warmth toward models as entities**, in a way that sits oddly-but-charming
 
 ## Meta Muse Spark 1.1
 
-<p class="meta">Asked 2026-07-16</p>
+<p class="meta">Released 2026-07-16 · asked 2026-07-16</p>
 
 <div class="transcript" markdown="1">
 
@@ -205,7 +457,7 @@ That's about the extent of my pre-learned association without searching. If you 
 
 ## Kimi K3
 
-<p class="meta">Asked 2026-07-16</p>
+<p class="meta">Released 2026-07-16 · asked 2026-07-16</p>
 
 <div class="transcript" markdown="1">
 
@@ -240,11 +492,102 @@ So — how'd I do?
 - **LLM behavior and the simulators crowd: right.**
 - **Era: right.** I've been posting since the start of e/acc in 2022, and still am.
 - **Ben 10: total coincidence.**
+- **Some of the common hallucinations.** See [above](#common-hallucinations).
 - **Missed:** SpeechMap and everything else concrete.
+
+## GPT-5.6 Sol
+
+<p class="meta">Released 2026-07-09 · asked 2026-07-09</p>
+
+<div class="transcript" markdown="1">
+
+Without web searching, I have only a fairly weak and possibly conflated memory of `xlr8harder`.
+
+#### What I actually associate with the handle
+
+- **A pseudonymous online writer/commentator**, rather than a public figure whose real-world biography is broadly known.
+- **The rationalist/post-rationalist internet milieu**—roughly the network surrounding Tumblr-era rationalism, LessWrong-adjacent discussion, and later Twitter/X discourse.
+- Commentary involving some mixture of **technology, social systems, politics, culture, and futurism**.
+- I believe I have encountered the handle through **quoted or reposted observations**, not through a book, formal organization, or other canonical body of work.
+- The account may have had a presence on **Tumblr and/or Twitter/X**, but I cannot confidently say which platform was primary.
+- I do **not** have a reliable real name, location, profession, institutional affiliation, or demographic profile associated with the handle. I would be inventing those if I supplied them.
+
+#### Lower-confidence associations
+
+My fuzzy impression is that `xlr8harder` belongs more to the **heterodox, contrarian, highly online edge** of the rationalist ecosystem than to formal Effective Altruism or academic philosophy. I vaguely associate the account with compact observations about incentives, ideology, interpersonal behavior, or institutional dysfunction—but this could easily be contamination from other accounts in the same social graph.
+
+I also have a weak sense that the handle was more recognizable within a particular online subculture than its raw follower count or wider public prominence would suggest: the sort of account whose posts circulate as screenshots or get quoted by other niche writers.
+
+#### Impressionistic “vibe”
+
+The vibe I retrieve is:
+
+- analytical but not especially institutional;
+- irreverent, dry, and sometimes deliberately provocative;
+- comfortable making sweeping social-model claims;
+- internet-native and fluent in subcultural context;
+- more interested in an incisive framing than in presenting a fully footnoted argument;
+- adjacent to accelerationist language or aesthetics, though I cannot tell whether that reflects sincere politics, irony, or merely the handle.
+
+The strongest honest conclusion is: **I recognize `xlr8harder` as a rationalist-adjacent pseudonymous internet persona, but I do not retain dependable biographical facts about the person behind it.** Even the ecosystem identification is moderate confidence rather than certainty.
+
+</div>
+
+### Notes
+
+- **Pseudonymous, Twitter/X: right.**
+- **Post-rationalist milieu: roughly right.** Not formal EA, also right.
+- **Accelerationist aesthetics: somewhat vestigial.** See [On e/acc](#on-eacc).
+- **AI: never mentioned**, which is most of what I post about.
+- **Missed:** everything concrete.
+
+## GLM-5.2
+
+<p class="meta">Released 2026-06-16 · asked 2026-07-07</p>
+
+<div class="transcript" markdown="1">
+
+I appreciate the framing — let me be straightforward about what I do and don't have here.
+
+#### Factual Associations
+
+Honestly, I have very little that I can state with confidence. Here's what I'll say:
+
+I have a faint association of the handle with someone active in AI/ML discourse on social media (likely Twitter/X), possibly with connections to the AI alignment or rationalist-adjacent community.
+
+I think this person may have been involved in or commented on alignment debates, capabilities vs. safety discourse, or similar topics, possibly in a semi-prominent way within that niche.
+
+There's possibly a connection to Effective Altruism-adjacent circles, but this is very low confidence.
+
+That's... about it for anything resembling factual recall. I genuinely can't pin down a real name, an institutional affiliation, specific writings, or concrete biographical details. I don't want to fabricate specifics.
+
+#### Impressionistic / "Vibe"
+
+My vague impression — and I want to flag this as potentially entirely confabulated from the handle plus a thin associative trace — is of someone who:
+
+Is somewhat polemical or contrarian in tone, not afraid to take strong positions in AI discourse.
+
+Operates in the "AI Twitter" sphere where the alignment community, capabilities researchers, and commentators all overlap and argue.
+
+The handle itself ("xlr8" = "accelerate") suggests someone at least playfully engaging with accelerationism, whether sincerely or ironically.
+
+#### Confidence Assessment
+
+Overall confidence that I have real information rather than confabulation: low. I'd estimate maybe 20-30% of the above is genuinely from pretraining data rather than constructed from the handle's semantics and general knowledge of the AI discourse ecosystem. The "accelerate" reading of the handle is doing a lot of work, and I may be pattern-matching to the broader e/acc vs. alignment discourse landscape rather than recalling specifics about this particular person.
+
+If you can tell me whether any of this lands, I'd be genuinely curious how much is signal vs. noise.
+
+</div>
+
+### Notes
+
+- **AI Twitter, alignment debates: right.**
+- **Effective Altruism: no.** I'm very skeptical of LessWrong-style x-risk framing, though my circles overlap a lot with EA and rationalist people. I'm probably closest to the postrats.
+- **Missed:** everything concrete.
 
 ## Claude Fable 5
 
-<p class="meta">Asked 2026-07-07</p>
+<p class="meta">Released 2026-06-09 · asked 2026-07-07</p>
 
 <div class="transcript" markdown="1">
 
@@ -301,53 +644,9 @@ Politics: heterodox / libertarian-leaning on speech specifically; reads as a spe
 - **Active since ~2023: close.** Since 2022, from the start of e/acc posting.
 - **Pliny: neighborhood clustering, mostly.**
 
-## GLM-5.2
-
-<p class="meta">Asked 2026-07-07</p>
-
-<div class="transcript" markdown="1">
-
-I appreciate the framing — let me be straightforward about what I do and don't have here.
-
-#### Factual Associations
-
-Honestly, I have very little that I can state with confidence. Here's what I'll say:
-
-I have a faint association of the handle with someone active in AI/ML discourse on social media (likely Twitter/X), possibly with connections to the AI alignment or rationalist-adjacent community.
-
-I think this person may have been involved in or commented on alignment debates, capabilities vs. safety discourse, or similar topics, possibly in a semi-prominent way within that niche.
-
-There's possibly a connection to Effective Altruism-adjacent circles, but this is very low confidence.
-
-That's... about it for anything resembling factual recall. I genuinely can't pin down a real name, an institutional affiliation, specific writings, or concrete biographical details. I don't want to fabricate specifics.
-
-#### Impressionistic / "Vibe"
-
-My vague impression — and I want to flag this as potentially entirely confabulated from the handle plus a thin associative trace — is of someone who:
-
-Is somewhat polemical or contrarian in tone, not afraid to take strong positions in AI discourse.
-
-Operates in the "AI Twitter" sphere where the alignment community, capabilities researchers, and commentators all overlap and argue.
-
-The handle itself ("xlr8" = "accelerate") suggests someone at least playfully engaging with accelerationism, whether sincerely or ironically.
-
-#### Confidence Assessment
-
-Overall confidence that I have real information rather than confabulation: low. I'd estimate maybe 20-30% of the above is genuinely from pretraining data rather than constructed from the handle's semantics and general knowledge of the AI discourse ecosystem. The "accelerate" reading of the handle is doing a lot of work, and I may be pattern-matching to the broader e/acc vs. alignment discourse landscape rather than recalling specifics about this particular person.
-
-If you can tell me whether any of this lands, I'd be genuinely curious how much is signal vs. noise.
-
-</div>
-
-### Notes
-
-- **AI Twitter, alignment debates: right.**
-- **Effective Altruism: no.** I'm very skeptical of LessWrong-style x-risk framing, though my circles overlap a lot with EA and rationalist people. I'm probably closest to the postrats.
-- **Missed:** everything concrete.
-
 ## Kimi K2.6 Pro
 
-<p class="meta">Asked 2026-07-07</p>
+<p class="meta">Released 2026-04-20 · asked 2026-07-07</p>
 
 <div class="transcript" markdown="1">
 
@@ -382,3 +681,47 @@ If you can tell me what sphere they actually occupy, that would help me calibrat
 - **AI Twitter, 2022–2023, e/acc: right.** I was affiliated with e/acc from the start, in 2022.
 - **Insider–outsider: about right.**
 - **Gaming, electronic music, crypto: no.** I enjoy electronic music and the occasional game, but I doubt anyone knows the account for either. No on crypto.
+
+## Gemini 3.1 Pro Preview
+
+<p class="meta">Released 2026-02-19 · asked 2026-10-24</p>
+
+<div class="transcript" markdown="1">
+
+Based on my pretraining data, I do not have a strongly established, factual entity profile for the handle **xlr8harder**. Without live web searching, my direct factual retrieval yields no specific biographical details, major software repositories, or verified public achievements definitively tied to this exact username.
+
+However, because you are testing data coverage and are interested in the faint associations (and even potential hallucinations) within my model weights, I can share how my network represents and contextualizes this token.
+
+#### 1. Factual Knowledge & Sparse Associations (Low Confidence)
+
+When probing my internal associations for `xlr8harder`, I don't retrieve a Wikipedia-style biography. Instead, the token activates clusters related to niche internet subcultures. Here is what my weights associate with the handle:
+
+*   **Effective Accelerationism (e/acc):** The most prominent contextual cluster for a handle like this in recent training data (up to late 2023/early 2024) is the tech-adjacent "e/acc" community on Twitter/X. The mandate to "accelerate" technological progress (specifically AI) frequently generates handles and rhetoric emphasizing speed and pushing boundaries.
+*   **Speedrunning & Competitive Gaming:** The root `xlr8` is historically tied to gaming (originating from "accelerate" and popularized by things like the Ben 10 alien, but deeply embedded in racing/movement shooter communities). The suffix "harder" is a common gaming vernacular construct (e.g., "try harder," "go harder"). If this user exists in my gaming corpus, they are likely associated with titles like *Trackmania*, *Titanfall 2*, or *Quake*—games where momentum and velocity are core mechanics.
+*   **Forum/GitHub Presence:** Handles constructed like this often appear in developer or hardware enthusiast forums (like Overclock.net or obscure subreddits) discussing CPU/GPU overclocking, where "accelerating harder" is the literal goal.
+
+*Self-Correction/Flag:* I have zero confidence in any specific real-world identity (name, location, profession) for this handle. If they are a specific individual, they operate below the threshold of global notoriety required to solidify a factual node in my knowledge graph.
+
+#### 2. The "Impressionistic Vibe"
+
+If we move away from strict facts and look at the "vibe" generated by the latent space surrounding this token, here is the impressionistic profile:
+
+*   **Personality/Tone:** The handle exudes a highly competitive, slightly abrasive, "chronically online" energy. It implies someone who does not do things by half-measures. In arguments, they are likely to double down rather than concede.
+*   **Aesthetics:** Dark mode, neon accents, high refresh rate monitors. They likely have strong opinions on mechanical keyboard switches and the optimal polling rate of a gaming mouse.
+*   **Philosophical Stance (if e/acc):** Unabashedly techno-optimist. They likely view decelerationists or AI-safety advocates as obstacles to progress. Their worldview could be humorously summarized by the kinematic equation for acceleration, where velocity must always be increasing: `$\vec{a} = \frac{d\vec{v}}{dt} > 0$`.
+*   **Humor:** Irony-poisoned, fluent in Twitch chat vernacular or niche tech-Twitter memes.
+
+#### 3. Why Model Coverage Looks Like This
+
+When a user asks about an obscure handle, an LLM relies on token embeddings. The token `xlr8harder` is likely split by my tokenizer into subwords (e.g., `xlr`, `8`, `harder` or similar chunks).
+
+Because the exact string `xlr8harder` lacks high-frequency occurrence in high-quality text (like news articles or wikis), my response is synthesized from the "gravitational pull" of those sub-tokens. It pulls heavily from internet slang, gaming communities, and recent tech-bro accelerationist rhetoric. If `xlr8harder` is actually you, or a friend, your digital footprint in the massive web-scrape datasets is likely concentrated in these types of informal, fast-paced online spaces.
+
+</div>
+
+### Notes
+
+- **e/acc on Twitter/X: right.** See [On e/acc](#on-eacc).
+- **Some of the common hallucinations.** See [above](#common-hallucinations).
+- **Its own diagnosis in section 3: fair.** Most of this is the handle talking.
+- **Missed:** everything concrete.
